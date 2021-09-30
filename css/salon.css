@@ -1,82 +1,150 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-/* <<<<<<<<<<..........Banner............>>>>>>>>>>> */
-
-#banner {
-    position: relative;
-}
-
-#banner h1 {
-    font-size: 80px;
-}
-
-#banner .txt {
-    position: absolute;
-    bottom: 20%;
-    left: 5%;
-}
-
-
-/* <<<<<<<<<<..........About............>>>>>>>>>>> */
-
-#About .about_img,
-img {
-    width: 300px;
-    height: 250px;
-    padding-right: 50px;
-    margin-right: 40px;
-}
-
-#About h4 {
-    font-size: 20px;
-    line-height: 36px;
-    font-weight: 500;
-    margin-bottom: 29px;
-}
-
-#About li {
-    font-size: 18px;
-    line-height: 26px;
-    color: #8a8582;
-    margin-bottom: 10px;
-    padding-left: 22px;
-}
-
-#About .box {
-    padding: 34px 0px 30px 60px;
-    margin-right: 10px;
-}
-
-.row {
-    --bs-gutter-x: 0 !important;
-}
-
-#About .container-inner {
-    position: relative;
-    padding-top: 110px;
-}
-
-
-/* <<<<<<<<<<..........Gallery............>>>>>>>>>>> */
-
-#gallery h1 {
-    text-align: center;
-    margin: 80px;
-}
-
-#gallery ul {
-    display: flex;
-    justify-content: center;
-}
-
-#gallery li {
-    font-size: 24px;
-    float: left;
-    list-style-type: none;
-    padding: 20px;
-}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* <<<<<<<<<<..........Banner............>>>>>>>>>>> */
+        
+        #banner {
+            position: relative;
+        }
+        
+        #banner h1 {
+            font-size: 80px;
+        }
+        
+        #banner .txt {
+            position: absolute;
+            bottom: 20%;
+            left: 5%;
+        }
+        /* <<<<<<<<<<..........About............>>>>>>>>>>> */
+        
+        #About .about_img,
+        img {
+            width: 300px;
+            height: 250px;
+            padding-right: 50px;
+            margin-right: 40px;
+        }
+        
+        #About h4 {
+            font-size: 20px;
+            line-height: 36px;
+            font-weight: 500;
+            margin-bottom: 29px;
+        }
+        
+        #About li {
+            font-size: 18px;
+            line-height: 26px;
+            list-style-type: square;
+            color: #8a8582;
+            margin-bottom: 10px;
+            padding-left: 22px;
+        }
+        
+        #About .box {
+            text-align: center;
+            background-color: coral;
+        }
+        
+        #About .box:hover {
+            background-color: hotpink;
+        }
+        
+        #About i {
+            font-size: 25px;
+            color: black;
+        }
+        
+        .row {
+            --bs-gutter-x: 0 !important;
+        }
+        
+        #About .content-box {
+            position: relative;
+            display: block;
+            background: #fff;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgb(0 0 0 / 8%);
+        }
+        
+        #About .shediul-box h2 {
+            position: relative;
+            display: block;
+            font-size: 30px;
+            line-height: 36px;
+            text-transform: uppercase;
+            margin-bottom: 38px;
+        }
+        
+        #About .shediul-box i {
+            position: absolute;
+            top: 65px;
+            right: 65px;
+            font-size: 50px;
+            line-height: 50px;
+            color: #df8e6a;
+        }
+        
+        #About .time-list h6 {
+            position: relative;
+            display: block;
+            font-size: 12px;
+            line-height: 20px;
+            font-weight: 500;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+        
+        #About .time-list h2 {
+            color: #df8e6a;
+        }
+        
+        #About .container-inner {
+            position: relative;
+            padding-top: 110px;
+        }
+        /* <<<<<<<<<<..........Gallery............>>>>>>>>>>> */
+        
+        #gallery h1 {
+            text-align: center;
+            margin: 80px;
+        }
+        
+        #gallery ul {
+            display: flex;
+            justify-content: center;
+        }
+        
+        #gallery li {
+            font-size: 24px;
+            float: left;
+            list-style-type: none;
+            padding: 20px;
+        }
+        /* <<<<<<<<<<..........testimonial............>>>>>>>>>>> */
+        
+        #testimonial .auther_footer {
+            position: relative;
+            background-color: chartreuse;
+        }
+        
+        #testimonial .auther_img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            position: absolute;
+            left: 10%;
+        }
+        
+        blockquote {
+            padding-left: 65px;
+        }
+        
+        #testimonial cite {
+            position: absolute;
+            left: 50%;
+        }
